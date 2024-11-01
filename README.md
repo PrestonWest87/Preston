@@ -94,17 +94,6 @@ _August 2018 - October 2022_
 
 ---
 
-## Project Portfolio
-
-### [Cloud Infrastructure Optimization on GCP]
-_Summary: Implemented scalable infrastructure and CI/CD pipelines on Google Cloud Platform, enhancing efficiency and reducing deployment time._  
-![GCP Project Image](path/to/gcp-project-image.jpg)
-
-### [Network Security Enhancement with Fortinet Firewalls]
-_Summary: Developed secure, segmented network environments and configured VPNs to support remote access and resilience._  
-![Fortinet Project Image](path/to/fortinet-project-image.jpg)
-
----
 
 ## Contact
 
