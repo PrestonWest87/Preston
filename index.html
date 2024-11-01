@@ -100,6 +100,10 @@
             background-color: #2c3e50; /* Slightly darker blue */
             transform: scale(1.05);
         }
+        /* Styling for button glow effect */
+        .button-glow {
+            box-shadow: 0 0 10px #8e44ad;
+        }
         /* Media queries for responsiveness */
         @media (max-width: 768px) {
             body {
@@ -150,19 +154,27 @@
             // Light mode toggle button
             const toggleButton = document.getElementById("toggle-light-mode");
             // Check and apply saved theme preference
-            if (localStorage.getItem("theme") === "light") {
-                document.body.classList.add("light-mode");
-                toggleButton.textContent = "Switch to Dark Mode";
+            try {
+                if (localStorage.getItem("theme") === "light") {
+                    document.body.classList.add("light-mode");
+                    toggleButton.textContent = "Switch to Dark Mode";
+                }
+            } catch (e) {
+                console.warn("localStorage is not supported or accessible.");
             }
             // Toggle light/dark mode when the button is clicked
             toggleButton.addEventListener("click", function() {
-                document.body.classList.toggle("light-mode");
-                if (document.body.classList.contains("light-mode")) {
-                    toggleButton.textContent = "Switch to Dark Mode";
-                    localStorage.setItem("theme", "light");
-                } else {
-                    toggleButton.textContent = "Switch to Light Mode";
-                    localStorage.setItem("theme", "dark");
+                try {
+                    document.body.classList.toggle("light-mode");
+                    if (document.body.classList.contains("light-mode")) {
+                        toggleButton.textContent = "Switch to Dark Mode";
+                        localStorage.setItem("theme", "light");
+                    } else {
+                        toggleButton.textContent = "Switch to Light Mode";
+                        localStorage.setItem("theme", "dark");
+                    }
+                } catch (e) {
+                    console.warn("localStorage is not supported or accessible.");
                 }
             });
 
@@ -297,19 +309,27 @@
             // Light mode toggle button
             const toggleButton = document.getElementById("toggle-light-mode");
             // Check and apply saved theme preference
-            if (localStorage.getItem("theme") === "light") {
-                document.body.classList.add("light-mode");
-                toggleButton.textContent = "Switch to Dark Mode";
+            try {
+                if (localStorage.getItem("theme") === "light") {
+                    document.body.classList.add("light-mode");
+                    toggleButton.textContent = "Switch to Dark Mode";
+                }
+            } catch (e) {
+                console.warn("localStorage is not supported or accessible.");
             }
             // Toggle light/dark mode when the button is clicked
             toggleButton.addEventListener("click", function() {
-                document.body.classList.toggle("light-mode");
-                if (document.body.classList.contains("light-mode")) {
-                    toggleButton.textContent = "Switch to Dark Mode";
-                    localStorage.setItem("theme", "light");
-                } else {
-                    toggleButton.textContent = "Switch to Light Mode";
-                    localStorage.setItem("theme", "dark");
+                try {
+                    document.body.classList.toggle("light-mode");
+                    if (document.body.classList.contains("light-mode")) {
+                        toggleButton.textContent = "Switch to Dark Mode";
+                        localStorage.setItem("theme", "light");
+                    } else {
+                        toggleButton.textContent = "Switch to Light Mode";
+                        localStorage.setItem("theme", "dark");
+                    }
+                } catch (e) {
+                    console.warn("localStorage is not supported or accessible.");
                 }
             });
 
