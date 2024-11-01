@@ -1,23 +1,25 @@
-# about-me
-A public facing web page that details who I am.
+# Preston West
 
-# Preston Brady West
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com)  
+**Location**: Arkansas, United States  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com)   
+![Profile Image](about-me/preston.jpeg)
+
 
 ---
 
 ## Professional Profile
 
-Network Management Professional with over six years of experience in network administration, security, and project leadership. Proficient in managing network systems across **Cisco, Juniper, Brocade**, and **Avaya** platforms, with expertise in **Palo Alto Firewalls**, **SEIM**, and **SolarWinds** software. Strong background in cybersecurity, specializing in the first three layers of the OSI model.
+Experienced Cloud DevOps Engineer and Network Security Specialist with a focus on designing and implementing secure, scalable, and high-performance infrastructure solutions. Skilled in leveraging **Google Cloud Platform (GCP)** for agile DevOps practices, including infrastructure automation, CI/CD pipeline development, and efficient, scalable deployments. Proficient in network security with expertise in **Fortinet Firewall** configuration and **Jamf MDM** for Mac OS management.
 
 ---
 
 ## Technical Competencies
 
-- **Systems**: Windows PC, Mac OSX, Linux
-- **Networks**: Cisco, Fortinet
-- **Mobile Device Management**: Jamf
+- **Cloud & DevOps**: Google Cloud Platform (GCP), Infrastructure as Code (IaC), CI/CD Pipeline Development
+- **Networking & Security**: Cisco, Fortinet, Palo Alto Firewalls, Network Segmentation, VPN
+- **Mobile Device Management**: Jamf (Mac OS Configuration and Compliance Management)
+- **Systems & Platforms**: Windows PC, Mac OSX, Linux
 - **Software**: MS Office Suite, Google Workspace
 
 ---
@@ -35,32 +37,35 @@ Network Management Professional with over six years of experience in network adm
 
 ## Professional Experience
 
+### Information Technology Associate  
+**Forge Institute** | Arkansas, United States (On-site)  
+_Jul 2024 - Present_
+
+- **Cloud DevOps Engineering & GCP**: Managing and optimizing cloud infrastructure on **Google Cloud Platform** (GCP) to support agile DevOps practices. Implementing infrastructure automation, CI/CD pipelines, and scalable deployment strategies to enhance operational efficiency and reliability.
+- **Jamf MDM & Mac OS Configuration**: Configuring and managing Mac OS environments using the **Jamf MDM suite** for a secure and efficient user experience. Responsibilities include policy deployment, compliance management, and endpoint security to meet stringent security standards.
+- **Fortinet Firewall & Network Security**: Configuring **Fortinet firewalls and access points** to secure infrastructure from evolving threats. Tasks involve firewall rule management, network segmentation, and VPN setup, ensuring a resilient network environment that supports business continuity.
+
 ### Fellow - Network Administration  
 **Forge Institute** | Little Rock, AR  
-_February 2024 - Present_
+_February 2024 - July 2024_
 
-- Expanded cybersecurity expertise with training in **Google Workspace (G Suite)**, **Fortinet Systems**, and **Apple Ecosystem** managed by **Jamf**.
-- Led the **design, construction, and deployment** of three Pop-up Network Kits.
-- Enhanced wireless networks for optimal data flow and connection balancing.
-- Initiated development of an **ELK stack logging and analysis system** within an Apple ecosystem.
-- **Achievements**: Fortinet CFC certification, completed Google Workspace and Jamf training.
+- Led the **design and deployment** of three Pop-up Network Kits to expand network connectivity options.
+- Developed an **ELK stack logging and analysis system** for enhanced data insights and monitoring within an Apple ecosystem.
+- Gained certifications in **Fortinet CFC** and training in **Google Workspace** and **Jamf** for comprehensive network management.
 
 ### Operations Integrations Supervisor  
 **68th Cyberspace Squadron, U.S. Space Force** | Colorado Springs, CO  
 _October 2022 - Present_
 
-- Led a team of four to map and analyze **18 geographically separated sites**, enhancing satellite communication networks.
-- Coordinated international logistics, achieving site visits **eight months ahead of schedule**.
-- Authored Space Force-wide **technical standards** for network mapping and analysis.
-- Temporarily assumed higher-level responsibilities, managing multi-organization collaborations to achieve strategic goals.
+- Directed a team to map and analyze **18 geographically separated sites** for satellite communication networks, accelerating deployment timelines.
+- Created Space Force-wide **technical standards** for network mapping and analysis.
 
 ### Network Management Technician  
 **374th Communications Squadron** | Tokyo, Japan  
 _August 2018 - October 2022_
 
-- Maintained critical network operations for **12,000 personnel** across 21 global sites, ensuring rapid recovery during outages.
-- Conducted training for new personnel on advanced networking and security protocols.
-- Recognized by the Commander of United States Forces Japan for excellence in service.
+- Maintained network operations for **12,000 personnel** across 21 locations, achieving high service standards.
+- Trained personnel on advanced networking and security protocols; commended for exemplary performance by senior command.
 
 ---
 
@@ -78,13 +83,13 @@ _August 2018 - October 2022_
 
 ## Project Portfolio
 
-### [Project Title 1]
-_Add a brief description of the project here._  
-![Project Image](path/to/project-image.jpg)
+### [Cloud Infrastructure Optimization on GCP]
+_Summary: Implemented scalable infrastructure and CI/CD pipelines on Google Cloud Platform, enhancing efficiency and reducing deployment time._  
+![GCP Project Image](path/to/gcp-project-image.jpg)
 
-### [Project Title 2]
-_Add a brief description of the project here._  
-![Project Image](path/to/project-image.jpg)
+### [Network Security Enhancement with Fortinet Firewalls]
+_Summary: Developed secure, segmented network environments and configured VPNs to support remote access and resilience._  
+![Fortinet Project Image](path/to/fortinet-project-image.jpg)
 
 ---
 
@@ -95,4 +100,3 @@ For further information or to discuss potential collaborations, please reach out
 ---
 
 **[Download Resume](link/to/resume.pdf)**
-
