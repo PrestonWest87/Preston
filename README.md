@@ -1,16 +1,60 @@
+<style>
+    body {
+        background-color: #f4f4f4;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+        line-height: 1.6;
+        padding: 20px;
+        max-width: 800px;
+        margin: auto;
+    }
+    img {
+        display: block;
+        margin: 20px auto;
+        border-radius: 8px;
+    }
+    h1, h2, h3 {
+        color: #005f99;
+    }
+    .profile-section {
+        background: #ffffff;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    a {
+        color: #005f99;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    ul {
+        padding-left: 20px;
+    }
+</style>
+
 # Preston West
 
-<img src="Picture.jpg" alt="Image description" style="width:200px; height:250px; border-radius:8px;">
+<img src="Picture.jpg" alt="Image description" style="width:200px; height:250px;">
+
+<div class="profile-section">
 
 ## LinkedIn
 **Location:** Arkansas, United States
 
----
+</div>
+
+<div class="profile-section">
 
 ## Professional Profile
 Experienced Cloud DevOps Engineer and Network Security Specialist with a focus on designing and implementing secure, scalable, and high-performance infrastructure solutions. Skilled in leveraging **Google Cloud Platform (GCP)** for agile DevOps practices, including infrastructure automation, CI/CD pipeline development, and efficient, scalable deployments. Proficient in network security with expertise in **Fortinet Firewall** configuration and **Jamf MDM** for Mac OS management.
 
----
+</div>
+
+<div class="profile-section">
 
 ## Technical Competencies
 - **Cloud & DevOps:** Google Cloud Platform (GCP), Infrastructure as Code (IaC)
@@ -19,7 +63,9 @@ Experienced Cloud DevOps Engineer and Network Security Specialist with a focus o
 - **Systems & Platforms:** Windows PC, Mac OSX, Linux
 - **Software:** MS Office Suite, Google Workspace
 
----
+</div>
+
+<div class="profile-section">
 
 ## Certifications
 - ISC2 SSCP | Issued: October 2024 | Expires: October 2025
@@ -30,7 +76,9 @@ Experienced Cloud DevOps Engineer and Network Security Specialist with a focus o
 - Fortinet Certified Cybersecurity (CFC) | Issued: Feb 2024 | Expires: Feb 2026
 - Forge Institute Cyber Professional | Issued: May 14, 2024
 
----
+</div>
+
+<div class="profile-section">
 
 ## Professional Experience
 
@@ -72,7 +120,9 @@ _August 2018 - October 2022_
   - **Networking Technologies:** Cisco switches, routers, and Voice Over Internet Protocol (VOIP) telephony; Plain Old Telephone System (POTS) telephony.
   - **Networking Protocols & Troubleshooting:** Layers 1, 2, and 3 of the OSI Model; Dynamic Host Configuration Protocol (DHCP) configuration and subnetting; TACACS/RADIUS configuration and Cisco Integrated Security Environment (ISE) servers.
 
----
+</div>
+
+<div class="profile-section">
 
 ## Education
 - **Bachelor of Applied Science in Information Assurance & Cyber Security**  
@@ -82,11 +132,13 @@ _August 2018 - October 2022_
   _Graduated: 2022_  
   Community College of the Air Force, Maxwell AFB, AL
 
----
+</div>
+
+<div class="profile-section">
 
 ## Contact
 For further information or to discuss potential collaborations, please reach out via email or LinkedIn.
 
----
+</div>
 
-[Download Resume](/ResumePrestonWest.pdf)
+[Download Resume](ResumePrestonWest.pdf)
