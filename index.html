@@ -8,12 +8,21 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #1b1b1b;
+            background: linear-gradient(-45deg, #1b1b1b, #282828, #1b1b1b, #8e44ad);
+            background-size: 400% 400%;
+            animation: gradientBackground 15s ease infinite;
             color: #e0e0e0;
             line-height: 1.6;
             margin: 0;
             padding: 20px;
         }
+
+        @keyframes gradientBackground {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
         .container {
             max-width: 900px;
             margin: auto;
@@ -37,13 +46,7 @@
             transform: scale(1.1);
         }
         a {
-            color: #34495e /* Change to Dark Blue */
-    }
-  ]
-}
-    }
-  ]
-}; /* Deep Red */
+            color: #34495e; /* Dark Blue */
             text-decoration: none;
             font-weight: bold;
         }
@@ -60,7 +63,7 @@
         }
         .experience-title, .education-title {
             font-weight: 700;
-            color: #e74c3c; /* Dark Scarlet */
+            color: #8e44ad; /* Deep Purple */
         }
         .experience-detail, .education-detail {
             margin-left: 20px;
