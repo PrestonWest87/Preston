@@ -3,7 +3,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com)  
 **Location**: Arkansas, United States  
 
-![Profile Image](about-me/Preston.jpeg)
+![Profile Image](Preston.jpeg)
 
 
 ---
