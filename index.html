@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preston West - Cloud DevOps Engineer and Network Security Specialist</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        /* Body styling and general page layout */
+    <style>/* Body styling and general page layout */
         body {
             font-family: 'Roboto', sans-serif;
             background: linear-gradient(45deg, #2c2c2c, #5a5a5a);
@@ -47,10 +46,11 @@
         /* Styling for profile image */
         img {
             border-radius: 8px;
-            max-width: 150%;
+            max-width: 100%;
             height: auto;
             transition: transform 0.5s ease;
             loading: lazy;
+            width: 200px;
         }
         img:hover {
             transform: scale(1.1);
@@ -140,13 +140,12 @@
         }
         .pulse-effect-active {
             transform: scale(1.2);
-        }
-    </style>
+        }</style>
     <button id="toggle-light-mode" style="position: fixed; bottom: 20px; right: 20px; padding: 10px; margin-top: 20px; z-index: 3;" aria-label="Toggle Light/Dark Mode" aria-live="polite">Switch to Light Mode</button>
     <!-- Button to toggle light/dark mode -->
     
     <script>
-        // JavaScript to add interactivity to the webpage
+        // JavaScript for additional fun and interactive features
         document.addEventListener("DOMContentLoaded", function() {
             // Light mode toggle button
             const toggleButton = document.getElementById("toggle-light-mode");
@@ -196,7 +195,7 @@
     <div class="container">
         <!-- Main content container -->
         <div style="display: flex; align-items: center; margin-bottom: 20px;">
-            <img src="preston_west_profile.jpg" alt="Preston West Profile Picture" loading="lazy" style="width: 80px; height: auto; margin-right: 20px;">
+            <img src="preston_west_profile.jpg" alt="Preston West Profile Picture" loading="lazy" style="margin-right: 20px;">
             <h1>Preston West</h1>
         </div>
 
