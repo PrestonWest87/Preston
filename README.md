@@ -1,20 +1,3 @@
----
-title: "Preston West - Professional Profile"
-style:
-  background-color: "#1e1e1e"
-  color: "#dcdcdc"
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-  link-color: "#4ec9b0"
-  link-hover-decoration: underline
-  border-color: "#3c3c3c"
-  border-radius: "8px"
-  box-shadow: "0 4px 8px rgba(0, 0, 0, 0.2)"
-  header-color: "#569cd6"
-  section-background: "#252526"
-  section-padding: "15px"
-  section-border-radius: "5px"
----
-
 # Preston West
 
 ![Image description](Picture.jpg){ width="200" height="250" }
