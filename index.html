@@ -46,8 +46,6 @@
         }
         /* Styling for profile image */
         img {
-            display: block;
-            margin: 20px auto;
             border-radius: 8px;
             max-width: 100%;
             height: auto;
@@ -110,17 +108,6 @@
             .container {
                 padding: 15px;
             }
-            /* Timeline in single-column layout for smaller screens */
-            .timeline-item {
-                width: 100%;
-                left: 0;
-            }
-            .timeline::before {
-                left: 25px;
-            }
-            .timeline-item::before {
-                left: -30px;
-            }
         }
 
         /* Light mode specific styling */
@@ -147,66 +134,6 @@
             background-color: #1f6391;
         }
 
-        /* Styling for the timeline element */
-        .timeline {
-            position: relative;
-            margin-top: 50px;
-        }
-        .timeline::before {
-            content: '';
-            position: absolute;
-            width: 4px;
-            background: #8e44ad;
-            top: 0;
-            bottom: 0;
-            left: 50%;
-            margin-left: -2px;
-        }
-        .timeline-item {
-            padding: 20px;
-            position: relative;
-            width: 50%;
-            box-sizing: border-box;
-        }
-        .timeline-item:nth-child(odd) {
-            left: 0;
-        }
-        .timeline-item:nth-child(even) {
-            left: 50%;
-        }
-        .timeline-item::before {
-            content: '';
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            right: -10px;
-            background: #8e44ad;
-            border-radius: 50%;
-            top: 15px;
-            z-index: 1;
-            animation: pulseIndicator 2s infinite;
-        }
-        @keyframes pulseIndicator {
-            0% {
-                transform: scale(1);
-                opacity: 1;
-            }
-            50% {
-                transform: scale(1.2);
-                opacity: 0.7;
-            }
-            100% {
-                transform: scale(1);
-                opacity: 1;
-            }
-        }
-        .timeline-content {
-            padding: 20px;
-            background: #282828;
-            border-radius: 8px;
-            position: relative;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
-        }
         /* Styling for pulse effect on profile image */
         .pulse-effect {
             transition: transform 0.2s ease;
@@ -215,7 +142,7 @@
             transform: scale(1.2);
         }
     </style>
-    <button id="toggle-light-mode" style="position: absolute; top: 20px; right: 20px; padding: 10px; margin-top: 20px; z-index: 3;" aria-label="Toggle Light/Dark Mode" aria-live="polite">Switch to Light Mode</button>
+    <button id="toggle-light-mode" style="position: fixed; bottom: 20px; right: 20px; padding: 10px; margin-top: 20px; z-index: 3;" aria-label="Toggle Light/Dark Mode" aria-live="polite">Switch to Light Mode</button>
     <!-- Button to toggle light/dark mode -->
     
     <script>
@@ -268,9 +195,10 @@
 <body>
     <div class="container">
         <!-- Main content container -->
-        <h1 style="display: inline-block; vertical-align: middle; margin-left: 10px;">Preston West</h1>
-        <!-- Profile name heading -->
-        <img src="preston_west_profile.jpg" alt="Preston West Profile Picture" loading="lazy" style="width: 80px; height: auto; display: inline-block; margin-right: 30px; margin-bottom: 10px; vertical-align: middle;">
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <img src="preston_west_profile.jpg" alt="Preston West Profile Picture" loading="lazy" style="width: 80px; height: auto; margin-right: 20px;">
+            <h1>Preston West</h1>
+        </div>
 
         <div class="buttons-container">
             <!-- Links to social media and resume -->
@@ -311,56 +239,40 @@
             </ul>
         </div>
 
-        <div class="section experience timeline" id="professional-experience">
-            <!-- Professional Experience section with animated timeline -->
+        <div class="section experience">
             <h2>Professional Experience</h2>
-            <div class="timeline-item">
-                <!-- Individual timeline item -->
-                <div class="timeline-content">
-                    <h3 class="experience-title">Information Technology Associate</h3>
-                    <p><strong>Forge Institute | Arkansas, United States (On-site)</strong><br><em>Jul 2024 - Present</em></p>
-                    <ul>
-                        <li>Managing and optimizing cloud infrastructure on <strong>Google Cloud Platform</strong> (GCP) to support agile DevOps practices.</li>
-                        <li>Configuring and managing Mac OS environments using the <strong>Jamf MDM suite</strong> for a secure and efficient user experience.</li>
-                        <li>Configuring <strong>Fortinet firewalls and access points</strong> to secure infrastructure from evolving threats.</li>
-                    </ul>
-                </div>
-            </div>
+            <div class="experience-detail">
+                <h3 class="experience-title">Information Technology Associate</h3>
+                <p><strong>Forge Institute | Arkansas, United States (On-site)</strong><br><em>Jul 2024 - Present</em></p>
+                <ul>
+                    <li>Managing and optimizing cloud infrastructure on <strong>Google Cloud Platform</strong> (GCP) to support agile DevOps practices.</li>
+                    <li>Configuring and managing Mac OS environments using the <strong>Jamf MDM suite</strong> for a secure and efficient user experience.</li>
+                    <li>Configuring <strong>Fortinet firewalls and access points</strong> to secure infrastructure from evolving threats.</li>
+                </ul>
 
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3 class="experience-title">Fellow - Network Administration</h3>
-                    <p><strong>Forge Institute | Little Rock, AR</strong><br><em>February 2024 - July 2024</em></p>
-                    <ul>
-                        <li>Led the design and deployment of three Pop-up Network Kits to expand network connectivity options.</li>
-                        <li>Worked to create, annotate, and define policy for Company CMMC Compliance.</li>
-                        <li>Gained certifications in Fortinet CFC and training in Google Workspace and Jamf for comprehensive network management.</li>
-                    </ul>
-                </div>
-            </div>
+                <h3 class="experience-title">Fellow - Network Administration</h3>
+                <p><strong>Forge Institute | Little Rock, AR</strong><br><em>February 2024 - July 2024</em></p>
+                <ul>
+                    <li>Led the design and deployment of three Pop-up Network Kits to expand network connectivity options.</li>
+                    <li>Worked to create, annotate, and define policy for Company CMMC Compliance.</li>
+                    <li>Gained certifications in Fortinet CFC and training in Google Workspace and Jamf for comprehensive network management.</li>
+                </ul>
 
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3 class="experience-title">Operations Integrations Supervisor</h3>
-                    <p><strong>68th Cyberspace Squadron, U.S. Space Force | Colorado Springs, CO</strong><br><em>October 2022 - Present</em></p>
-                    <ul>
-                        <li>Led a 4-member team in mapping and analyzing 18 geographically separated sites for the largest satellite communications network within the U.S. Space Force.</li>
-                        <li>Planned and coordinated travel to five global locations, completing site visits eight months ahead of schedule.</li>
-                        <li>Created technical documents and procedures that became Space Force-wide standards.</li>
-                    </ul>
-                </div>
-            </div>
+                <h3 class="experience-title">Operations Integrations Supervisor</h3>
+                <p><strong>68th Cyberspace Squadron, U.S. Space Force | Colorado Springs, CO</strong><br><em>October 2022 - Present</em></p>
+                <ul>
+                    <li>Led a 4-member team in mapping and analyzing 18 geographically separated sites for the largest satellite communications network within the U.S. Space Force.</li>
+                    <li>Planned and coordinated travel to five global locations, completing site visits eight months ahead of schedule.</li>
+                    <li>Created technical documents and procedures that became Space Force-wide standards.</li>
+                </ul>
 
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3 class="experience-title">Network Management Technician</h3>
-                    <p><strong>374th Communications Squadron | Tokyo, Japan</strong><br><em>August 2018 - October 2022</em></p>
-                    <ul>
-                        <li>Maintained network operations for 12,000 personnel across 21 locations, ensuring minimal downtime.</li>
-                        <li>Collaborated with international partners to deliver communication services globally.</li>
-                        <li>Resolved multiple critical network outages within 36 hours by pinpointing issues across OSI layers.</li>
-                    </ul>
-                </div>
+                <h3 class="experience-title">Network Management Technician</h3>
+                <p><strong>374th Communications Squadron | Tokyo, Japan</strong><br><em>August 2018 - October 2022</em></p>
+                <ul>
+                    <li>Maintained network operations for 12,000 personnel across 21 locations, ensuring minimal downtime.</li>
+                    <li>Collaborated with international partners to deliver communication services globally.</li>
+                    <li>Resolved multiple critical network outages within 36 hours by pinpointing issues across OSI layers.</li>
+                </ul>
             </div>
         </div>
 
