@@ -4,7 +4,7 @@
 **Location**: Arkansas, United States  
 
 <!-- ![Profile Image](Picture.jpg) -->
-<img src="Picture.jpg" alt="Image description" width="300" height="200"/>
+<img src="Picture.jpg" alt="Image description" width="200" height="400"/>
 
 
 
