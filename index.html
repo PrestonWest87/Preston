@@ -8,22 +8,22 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #1b1b1b;
-            color: #f4f4f4;
+            background-color: #121212;
+            color: #e0e0e0;
             line-height: 1.6;
             margin: 0;
             padding: 20px;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
-            background: #2a2a2a;
+            background: #1e1e1e;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
         }
         h1, h2, h3 {
-            color: #4cafb0;
+            color: #ffa726;
         }
         img {
             display: block;
@@ -33,7 +33,7 @@
             height: 250px;
         }
         a {
-            color: #4cafb0;
+            color: #ffa726;
             text-decoration: none;
             font-weight: bold;
         }
@@ -43,17 +43,48 @@
         .section {
             margin-bottom: 30px;
             padding-bottom: 20px;
-            border-bottom: 1px solid #444;
+            border-bottom: 1px solid #333;
         }
         .experience, .education {
             margin-top: 20px;
         }
         .experience-title, .education-title {
             font-weight: 700;
-            color: #90caf9;
+            color: #ffcc80;
         }
         .experience-detail, .education-detail {
             margin-left: 20px;
+        }
+        .buttons-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .button-link {
+            background-color: #ff8f00;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .button-link:hover {
+            background-color: #ff7043;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 15px;
+            }
+            img {
+                width: 150px;
+                height: 200px;
+            }
         }
     </style>
 </head>
@@ -62,14 +93,18 @@
         <h1>Preston West</h1>
         <img src="Picture.jpg" alt="Image description">
 
-        <div class="section" style="display: flex; align-items: center; gap: 10px;">
-            <a href="https://www.linkedin.com/in/prestonbwest/" style="display: inline-block; background-color: #4cafb0; color: #ffffff; padding: 10px 15px; text-decoration: none; border-radius: 5px; text-align: center;">LinkedIn Profile</a>
-            <a href="ResumePrestonWest.pdf" style="background-color: #4cafb0; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Download Resume</a>
+        <div class="buttons-container">
+            <a href="https://www.linkedin.com/in/prestonbwest/" class="button-link">LinkedIn Profile</a>
+            <a href="ResumePrestonWest.pdf" class="button-link">Download Resume</a>
+        </div>
+
+        <div class="section">
             <p><strong>Location:</strong> Arkansas, United States</p>
         </div>
+
         <div class="section">
             <h2>Professional Profile</h2>
-            <p>Experienced Cloud DevOps Engineer and Network Security Specialist with a focus on designing and implementing secure, scalable, and high-performance infrastructure solutions. Skilled in leveraging <strong>Google Cloud Platform (GCP)</strong> for agile DevOps practices, including infrastructure automation, and efficient, scalable deployments. Proficient in network security with expertise in <strong>Fortinet Firewall</strong> configuration and <strong>Jamf MDM</strong> for Mac OS management.</p>
+            <p>Experienced Cloud DevOps Engineer and Network Security Specialist with a focus on designing and implementing secure, scalable, and high-performance infrastructure solutions. Skilled in leveraging <strong>Google Cloud Platform (GCP)</strong> for agile DevOps practices, including infrastructure automation, CI/CD pipeline development, and efficient, scalable deployments. Proficient in network security with expertise in <strong>Fortinet Firewall</strong> configuration and <strong>Jamf MDM</strong> for Mac OS management.</p>
         </div>
 
         <div class="section">
