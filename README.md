@@ -17,7 +17,7 @@ style:
 
 # Preston West
 
-![Image description](Picture.jpg) { width=200 height=250 }
+![Image description](Picture.jpg){ width="200" height="250" }
 
 ## LinkedIn
 **Location:** Arkansas, United States
