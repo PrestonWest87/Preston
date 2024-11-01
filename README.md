@@ -20,7 +20,7 @@ Experienced Cloud DevOps Engineer and Network Security Specialist with a focus o
 
 ## Technical Competencies
 
-- **Cloud & DevOps**: Google Cloud Platform (GCP), Infrastructure as Code (IaC), CI/CD Pipeline Development
+- **Cloud & DevOps**: Google Cloud Platform (GCP), Infrastructure as Code (IaC)
 - **Networking & Security**: Cisco, Fortinet, Palo Alto Firewalls, Network Segmentation, VPN
 - **Mobile Device Management**: Jamf (Mac OS Configuration and Compliance Management)
 - **Systems & Platforms**: Windows PC, Mac OSX, Linux
@@ -30,6 +30,7 @@ Experienced Cloud DevOps Engineer and Network Security Specialist with a focus o
 
 ## Certifications
 
+- **ISC2 SSCP** | Issued: October 2024 | Expires: October 2025
 - **CompTIA Security+** | Issued: Mar 2019 | Expires: Mar 2025
 - **CompTIA Network+** | Issued: Sep 2023 | Expires: Sep 2026
 - **CompTIA A+** | Issued: Apr 2023 | Expires: Jun 2026
@@ -54,22 +55,30 @@ _Jul 2024 - Present_
 _February 2024 - July 2024_
 
 - Led the **design and deployment** of three Pop-up Network Kits to expand network connectivity options.
-- Developed an **ELK stack logging and analysis system** for enhanced data insights and monitoring within an Apple ecosystem.
+- Worked to create, annotate, and define policy for Company CMMC Comliance.
 - Gained certifications in **Fortinet CFC** and training in **Google Workspace** and **Jamf** for comprehensive network management.
 
 ### Operations Integrations Supervisor  
 **68th Cyberspace Squadron, U.S. Space Force** | Colorado Springs, CO  
 _October 2022 - Present_
 
-- Directed a team to map and analyze **18 geographically separated sites** for satellite communication networks, accelerating deployment timelines.
-- Created Space Force-wide **technical standards** for network mapping and analysis.
-
+- Led a 4-member team in mapping and analyzing **18 geographically separated sites** for the largest satellite communications network within the U.S. Space Force.
+  - Planned and coordinated travel to five global locations with four separate agencies within eight months, completing site visits eight months ahead of schedule.
+  - Created technical documents and procedures that became Space Force-wide standards for network mapping and analysis of satellite communications systems.
+  - Temporarily filled a position two steps higher for 3 ½ months, coordinating with six organizations to ensure successful execution of high-level meetings and events.
+  
 ### Network Management Technician  
 **374th Communications Squadron** | Tokyo, Japan  
 _August 2018 - October 2022_
 
-- Maintained network operations for **12,000 personnel** across 21 locations, achieving high service standards.
-- Trained personnel on advanced networking and security protocols; commended for exemplary performance by senior command.
+- Maintained network operations for **12,000 personnel** across 21 locations, ensuring minimal downtime.
+- Collaborated with international partners to deliver communication services globally, supporting networks across six countries.
+  - Resolved multiple critical network outages, restoring services within 36 hours by pinpointing issues across OSI layers and executing swift resolution plans.
+  - Selected to train the United States Forces Japan Network Administrator on three networks, ensuring continuity during multinational joint exercises.
+  - Received a personal Letter of Accomplishment from a 3-Star General for efforts in maintaining uninterrupted network service.
+- Trained 15 new personnel on:
+  - **Networking Technologies**: Cisco switches, routers, and Voice Over Internet Protocol (VOIP) telephony; Plain Old Telephone System (POTS) telephony.
+  - **Networking Protocols & Troubleshooting**: Layers 1, 2, and 3 of the OSI Model; Dynamic Host Configuration Protocol (DHCP) configuration and subnetting; TACACS/RADIUS configuration and Cisco Integrated Security Environment (ISE) servers.
 
 ---
 
