@@ -106,7 +106,43 @@
             }
         }
     </style>
-</head>
+<style>
+        .light-mode {
+            background: linear-gradient(45deg, #f0f0f0, #d0d0d0);
+            color: #333;
+        }
+        .light-mode .container {
+            background: #ffffff;
+            color: #333;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .light-mode h1, .light-mode h2, .light-mode h3 {
+            color: #34495e;
+        }
+        .light-mode a {
+            color: #2980b9;
+        }
+        .light-mode .button-link {
+            background-color: #2980b9;
+            color: #ffffff;
+        }
+        .light-mode .button-link:hover {
+            background-color: #1f6391;
+        }
+    </style>
+    <button id="toggle-light-mode" style="position: fixed; top: 10px; right: 10px; padding: 10px; z-index: 3;">Toggle Light Mode</button>
+    
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const toggleButton = document.getElementById("toggle-light-mode");
+            toggleButton.addEventListener("click", function() {
+                document.body.classList.toggle("light-mode");
+            });
+        });
+    </script>
+    
+    $1
 <body>
     <div class="container">
         <h1>Preston West</h1>
@@ -233,7 +269,7 @@
                 if (index < typewriterText.length) {
                     document.getElementById('typewriter-text').textContent += typewriterText.charAt(index);
                     index++;
-                    setTimeout(typeWriter, 50); // Speed of typing
+                    setTimeout(typeWriter, 10); // Speed of typing
                 }
             }
             typeWriter();
