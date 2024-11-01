@@ -89,4 +89,4 @@ For further information or to discuss potential collaborations, please reach out
 
 ---
 
-[Download Resume](ResumePrestonWest.pdf)
+[Download Resume](/ResumePrestonWest.pdf)
