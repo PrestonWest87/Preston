@@ -2,7 +2,6 @@
 title: "Preston West - Professional Profile"
 ---
 
-<div style="background-color: #f4f4f4; padding: 20px; border-radius: 10px;">
 
 # <span style="color: #005f99;">Preston West</span>
 
@@ -97,4 +96,3 @@ For further information or to discuss potential collaborations, please reach out
 
 <p style="text-align: center;"><a href="#" style="background-color: #005f99; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Download Resume</a></p>
 
-</div>
