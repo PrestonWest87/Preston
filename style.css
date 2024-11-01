@@ -1,0 +1,138 @@
+/* Body styling and general page layout */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(45deg, #2c2c2c, #5a5a5a);
+            background-size: 400% 400%;
+            animation: gradientBackground 15s ease infinite;
+            color: #e0e0e0;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            overflow: auto;
+        }
+
+        /* Keyframe animation for the background gradient */
+        @keyframes gradientBackground {
+            0% { background-position: 0% 0%; }
+            25% { background-position: 100% 0%; }
+            50% { background-position: 100% 100%; }
+            75% { background-position: 0% 100%; }
+            100% { background-position: 0% 0%; }
+        }
+
+        /* Styling for the container element */
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #282828;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 2;
+        }
+        h1, h2, h3 {
+            color: #8e44ad; /* Deep Purple */
+        }
+        /* Styling for profile image */
+        img {
+            border-radius: 8px;
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.5s ease;
+            loading: lazy;
+            width: 200px;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+        /* Styling for anchor tags */
+        a {
+            color: #34495e; /* Dark Blue */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #444;
+        }
+        .experience, .education {
+            margin-top: 20px;
+        }
+        .experience-title, .education-title {
+            font-weight: 700;
+            color: #8e44ad; /* Deep Purple */
+        }
+        .experience-detail, .education-detail {
+            margin-left: 20px;
+        }
+        /* Styling for buttons container */
+        .buttons-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .button-link {
+            background-color: #34495e; /* Dark Blue */
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .button-link:hover {
+            background-color: #2c3e50; /* Slightly darker blue */
+            transform: scale(1.05);
+        }
+        /* Styling for button glow effect */
+        .button-glow {
+            box-shadow: 0 0 10px #8e44ad;
+        }
+        /* Media queries for responsiveness */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 15px;
+            }
+        }
+
+        /* Light mode specific styling */
+        .light-mode {
+            background: linear-gradient(45deg, #f0f0f0, #d0d0d0);
+            color: #333;
+        }
+        .light-mode .container {
+            background: #ffffff;
+            color: #333;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .light-mode h1, .light-mode h2, .light-mode h3 {
+            color: #34495e;
+        }
+        .light-mode a {
+            color: #2980b9;
+        }
+        .light-mode .button-link {
+            background-color: #2980b9;
+            color: #ffffff;
+        }
+        .light-mode .button-link:hover {
+            background-color: #1f6391;
+        }
+
+        /* Styling for pulse effect on profile image */
+        .pulse-effect {
+            transition: transform 0.2s ease;
+        }
+        .pulse-effect-active {
+            transform: scale(1.2);
+        }
