@@ -1,23 +1,20 @@
----
-title: "Preston West - Professional Profile"
----
+# Preston West
 
+<img src="Picture.jpg" alt="Image description" style="width:200px; height:250px;">
 
-# <span style="color: #005f99;">Preston West</span>
-
-<img src="Picture.jpg" alt="Image description" style="width:200px; height:250px; margin: 20px auto; display: block; border-radius: 8px;">
-
-## <span style="color: #005f99;">LinkedIn</span>
+## LinkedIn
 **Location**: Arkansas, United States
 
 ---
 
-## <span style="color: #005f99;">Professional Profile</span>
+## Professional Profile
+
 Experienced Cloud DevOps Engineer and Network Security Specialist with a focus on designing and implementing secure, scalable, and high-performance infrastructure solutions. Skilled in leveraging **Google Cloud Platform (GCP)** for agile DevOps practices, including infrastructure automation, CI/CD pipeline development, and efficient, scalable deployments. Proficient in network security with expertise in **Fortinet Firewall** configuration and **Jamf MDM** for Mac OS management.
 
 ---
 
-## <span style="color: #005f99;">Technical Competencies</span>
+## Technical Competencies
+
 - **Cloud & DevOps**: Google Cloud Platform (GCP), Infrastructure as Code (IaC)
 - **Networking & Security**: Cisco, Fortinet, Palo Alto Firewalls, Network Segmentation, VPN
 - **Mobile Device Management**: Jamf (Mac OS Configuration and Compliance Management)
@@ -26,7 +23,8 @@ Experienced Cloud DevOps Engineer and Network Security Specialist with a focus o
 
 ---
 
-## <span style="color: #005f99;">Certifications</span>
+## Certifications
+
 - ISC2 SSCP | Issued: October 2024 | Expires: October 2025
 - CompTIA Security+ | Issued: Mar 2019 | Expires: Mar 2025
 - CompTIA Network+ | Issued: Sep 2023 | Expires: Sep 2026
@@ -37,9 +35,9 @@ Experienced Cloud DevOps Engineer and Network Security Specialist with a focus o
 
 ---
 
-## <span style="color: #005f99;">Professional Experience</span>
+## Professional Experience
 
-### <span style="color: #007acc;">Information Technology Associate</span>
+### Information Technology Associate
 **Forge Institute** | Arkansas, United States (On-site)  
 _Jul 2024 - Present_
 
@@ -47,7 +45,7 @@ _Jul 2024 - Present_
 - **Jamf MDM & Mac OS Configuration**: Configuring and managing Mac OS environments using the **Jamf MDM suite** for a secure and efficient user experience. Responsibilities include policy deployment, compliance management, and endpoint security to meet stringent security standards.
 - **Fortinet Firewall & Network Security**: Configuring **Fortinet firewalls and access points** to secure infrastructure from evolving threats. Tasks involve firewall rule management, network segmentation, and VPN setup, ensuring a resilient network environment that supports business continuity.
 
-### <span style="color: #007acc;">Fellow - Network Administration</span>
+### Fellow - Network Administration
 **Forge Institute** | Little Rock, AR  
 _February 2024 - July 2024_
 
@@ -55,7 +53,7 @@ _February 2024 - July 2024_
 - Worked to create, annotate, and define policy for Company CMMC Compliance.
 - Gained certifications in **Fortinet CFC** and training in **Google Workspace** and **Jamf** for comprehensive network management.
 
-### <span style="color: #007acc;">Operations Integrations Supervisor</span>
+### Operations Integrations Supervisor
 **68th Cyberspace Squadron, U.S. Space Force** | Colorado Springs, CO  
 _October 2022 - Present_
 
@@ -64,7 +62,7 @@ _October 2022 - Present_
 - Created technical documents and procedures that became Space Force-wide standards for network mapping and analysis of satellite communications systems.
 - Temporarily filled a position two steps higher for 3 ½ months, coordinating with six organizations to ensure successful execution of high-level meetings and events.
 
-### <span style="color: #007acc;">Network Management Technician</span>
+### Network Management Technician
 **374th Communications Squadron** | Tokyo, Japan  
 _August 2018 - October 2022_
 
@@ -79,7 +77,8 @@ _August 2018 - October 2022_
 
 ---
 
-## <span style="color: #005f99;">Education</span>
+## Education
+
 - **Bachelor of Applied Science in Information Assurance & Cyber Security**  
   _Anticipated Graduation: June 2025_  
   Western Governors University, Salt Lake City, UT
@@ -89,10 +88,10 @@ _August 2018 - October 2022_
 
 ---
 
-## <span style="color: #005f99;">Contact</span>
+## Contact
+
 For further information or to discuss potential collaborations, please reach out via email or LinkedIn.
 
 ---
 
-<p style="text-align: center;"><a href="#" style="background-color: #005f99; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Download Resume</a></p>
-
+[Download Resume](#)
