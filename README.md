@@ -1,10 +1,10 @@
 # Preston West
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com)  <img src="Picture.jpg" alt="Image description" width="200" height="250"/>
 **Location**: Arkansas, United States  
 
 <!-- ![Profile Image](Picture.jpg) -->
-<img src="Picture.jpg" alt="Image description" width="200" height="250"/>
+
 
 
 
