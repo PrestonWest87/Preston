@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
 <style>
     body {
         background-color: #f4f4f4;
@@ -35,6 +36,8 @@
         padding-left: 20px;
     }
 </style>
+
+<div class="markdown-body">
 
 # Preston West
 
@@ -142,3 +145,5 @@ For further information or to discuss potential collaborations, please reach out
 </div>
 
 [Download Resume](ResumePrestonWest.pdf)
+
+</div>
