@@ -3,7 +3,9 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com)  
 **Location**: Arkansas, United States  
 
-![Profile Image](Picture.jpg)
+<!-- ![Profile Image](Picture.jpg) -->
+<img src="Picture.jpg" alt="Image description" width="300" height="200"/>
+
 
 
 ---
