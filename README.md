@@ -4,7 +4,7 @@ title: "Preston West - Professional Profile"
 
 # Preston West
 
-![Image description](Picture.jpg){ width=200 height=250 }
+<img src="Picture.jpg" alt="Image description" style="width:200px; height:250px;">
 
 ## LinkedIn
 **Location**: Arkansas, United States
