@@ -2,181 +2,22 @@
 <!-- Author: OpenAI Assistant -->
 <html lang="en">
 <head>
-    <!-- Meta and CSS links -->
+    <!-- Meta and title -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Preston West - Cloud DevOps Engineer and Network Security Specialist Portfolio.">
     <title>Preston West - Cloud DevOps Engineer and Network Security Specialist</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        /* Body styling and general page layout */
-        body {
-            font-family: 'Roboto', sans-serif;
-            background: linear-gradient(45deg, #2c2c2c, #5a5a5a, #8e44ad, #34495e);
-            background-size: 400% 400%;
-            animation: gradientBackground 20s ease infinite;
-            color: #e0e0e0;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            overflow: auto;
-        }
-
-        /* Keyframe animation for the background gradient */
-        @keyframes gradientBackground {
-            0% { background-position: 0% 50%; }
-            25% { background-position: 100% 50%; }
-            50% { background-position: 100% 100%; }
-            75% { background-position: 0% 100%; }
-            100% { background-position: 0% 50%; }
-        }
-
-        /* Styling for the container element */
-        .container {
-            max-width: 900px;
-            margin: auto;
-            background: #282828;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
-            position: relative;
-            z-index: 2;
-        }
-
-        h1, h2, h3 {
-            color: #8e44ad; /* Deep Purple */
-        }
-
-        /* Styling for profile image */
-        img {
-            border-radius: 8px;
-            max-width: 100%;
-            height: auto;
-            transition: transform 0.5s ease;
-            width: 200px;
-        }
-
-        img:hover {
-            transform: scale(1.1);
-        }
-
-        /* Styling for anchor tags */
-        a {
-            color: #34495e; /* Dark Blue */
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .section {
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #444;
-        }
-
-        .experience, .education {
-            margin-top: 20px;
-        }
-
-        .experience-title, .education-title {
-            font-weight: 700;
-            color: #8e44ad; /* Deep Purple */
-        }
-
-        .experience-detail, .education-detail {
-            margin-left: 20px;
-        }
-
-        /* Styling for buttons container */
-        .buttons-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-
-        .button-link {
-            background-color: #34495e; /* Dark Blue */
-            color: #ffffff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-
-        .button-link:hover {
-            background-color: #2c3e50; /* Slightly darker blue */
-            transform: scale(1.05);
-        }
-
-        /* Styling for button glow effect */
-        .button-glow {
-            box-shadow: 0 0 10px #8e44ad;
-        }
-
-        /* Media queries for responsiveness */
-        @media (max-width: 768px) {
-            body {
-                padding: 10px;
-            }
-
-            .container {
-                padding: 15px;
-            }
-        }
-
-        /* Light mode specific styling */
-        .light-mode {
-            background: linear-gradient(45deg, #f0f0f0, #d0d0d0);
-            color: #333;
-        }
-
-        .light-mode .container {
-            background: #ffffff;
-            color: #333;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .light-mode h1, .light-mode h2, .light-mode h3 {
-            color: #34495e;
-        }
-
-        .light-mode a {
-            color: #2980b9;
-        }
-
-        .light-mode .button-link {
-            background-color: #2980b9;
-            color: #ffffff;
-        }
-
-        .light-mode .button-link:hover {
-            background-color: #1f6391;
-        }
-
-        /* Styling for pulse effect on profile image */
-        .pulse-effect {
-            transition: transform 0.2s ease;
-        }
-
-        .pulse-effect-active {
-            transform: scale(1.2);
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <button id="toggle-light-mode" style="position: fixed; bottom: 20px; right: 20px; padding: 10px; margin-top: 20px; z-index: 3;" aria-label="Toggle Light/Dark Mode" aria-live="polite">Switch to Light Mode</button>
+    <button id="toggle-light-mode" class="toggle-button" aria-label="Toggle Light/Dark Mode" aria-live="polite">Switch to Light Mode</button>
     <!-- Button to toggle light/dark mode -->
     
     <div class="container">
         <!-- Main content container -->
-        <div style="display: flex; align-items: center; margin-bottom: 20px;">
-            <img src="preston_west_profile.jpg" alt="Preston West Profile Picture" loading="lazy" style="margin-right: 20px;">
+        <div class="profile-header">
+            <img src="preston_west_profile.jpg" alt="Preston West Profile Picture" loading="lazy" class="profile-image">
             <h1>Preston West</h1>
         </div>
 
@@ -184,7 +25,6 @@
             <!-- Links to social media and resume -->
             <a href="https://www.linkedin.com/in/prestonbwest/" class="button-link">LinkedIn Profile</a>
             <a href="Preston_West_Resume_2024.pdf" class="button-link" target="_blank">Download Resume</a>
-          <!--  <a href="WeastPCs.html" class="button-link">Visit Weast PCs</a> -->
         </div>
         
         <!-- Other content here -->
@@ -298,18 +138,6 @@
                 } catch (e) {
                     console.warn("localStorage is not supported or accessible.");
                 }
-            });
-
-            // Button hover glow effect
-            // Add glow effect to buttons on hover
-            const buttons = document.querySelectorAll('.button-link');
-            buttons.forEach(button => {
-                button.addEventListener('mouseover', function() {
-                    button.classList.add("button-glow");
-                });
-                button.addEventListener('mouseout', function() {
-                    button.classList.remove("button-glow");
-                });
             });
 
             // Image pulse effect when clicked
