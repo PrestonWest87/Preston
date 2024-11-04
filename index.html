@@ -4,10 +4,12 @@
 <head>
     <!-- Meta and CSS links -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1.0">
+    <meta name="description" content="Preston West - Cloud DevOps Engineer and Network Security Specialist Portfolio.">
     <title>Preston West - Cloud DevOps Engineer and Network Security Specialist</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>/* Body styling and general page layout */
+    <style>
+        /* Body styling and general page layout */
         body {
             font-family: 'Roboto', sans-serif;
             background: linear-gradient(45deg, #2c2c2c, #5a5a5a);
@@ -40,45 +42,54 @@
             position: relative;
             z-index: 2;
         }
+
         h1, h2, h3 {
             color: #8e44ad; /* Deep Purple */
         }
+
         /* Styling for profile image */
         img {
             border-radius: 8px;
             max-width: 100%;
             height: auto;
             transition: transform 0.5s ease;
-            loading: lazy;
             width: 200px;
         }
+
         img:hover {
             transform: scale(1.1);
         }
+
         /* Styling for anchor tags */
         a {
             color: #34495e; /* Dark Blue */
             text-decoration: none;
             font-weight: bold;
         }
+
         a:hover {
             text-decoration: underline;
         }
+
         .section {
             margin-bottom: 30px;
             padding-bottom: 20px;
             border-bottom: 1px solid #444;
         }
+
         .experience, .education {
             margin-top: 20px;
         }
+
         .experience-title, .education-title {
             font-weight: 700;
             color: #8e44ad; /* Deep Purple */
         }
+
         .experience-detail, .education-detail {
             margin-left: 20px;
         }
+
         /* Styling for buttons container */
         .buttons-container {
             display: flex;
@@ -88,6 +99,7 @@
             gap: 15px;
             margin-bottom: 20px;
         }
+
         .button-link {
             background-color: #34495e; /* Dark Blue */
             color: #ffffff;
@@ -96,19 +108,23 @@
             border-radius: 5px;
             transition: background-color 0.3s ease, transform 0.3s ease;
         }
+
         .button-link:hover {
             background-color: #2c3e50; /* Slightly darker blue */
             transform: scale(1.05);
         }
+
         /* Styling for button glow effect */
         .button-glow {
             box-shadow: 0 0 10px #8e44ad;
         }
+
         /* Media queries for responsiveness */
         @media (max-width: 768px) {
             body {
                 padding: 10px;
             }
+
             .container {
                 padding: 15px;
             }
@@ -119,21 +135,26 @@
             background: linear-gradient(45deg, #f0f0f0, #d0d0d0);
             color: #333;
         }
+
         .light-mode .container {
             background: #ffffff;
             color: #333;
             box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
         }
+
         .light-mode h1, .light-mode h2, .light-mode h3 {
             color: #34495e;
         }
+
         .light-mode a {
             color: #2980b9;
         }
+
         .light-mode .button-link {
             background-color: #2980b9;
             color: #ffffff;
         }
+
         .light-mode .button-link:hover {
             background-color: #1f6391;
         }
@@ -142,68 +163,16 @@
         .pulse-effect {
             transition: transform 0.2s ease;
         }
+
         .pulse-effect-active {
             transform: scale(1.2);
-        }</style>
+        }
+    </style>
+</head>
+<body>
     <button id="toggle-light-mode" style="position: fixed; bottom: 20px; right: 20px; padding: 10px; margin-top: 20px; z-index: 3;" aria-label="Toggle Light/Dark Mode" aria-live="polite">Switch to Light Mode</button>
     <!-- Button to toggle light/dark mode -->
     
-    <script>
-        // JavaScript for additional fun and interactive features
-        document.addEventListener("DOMContentLoaded", function() {
-            // Light mode toggle button
-            const toggleButton = document.getElementById("toggle-light-mode");
-            // Check and apply saved theme preference
-            try {
-                if (localStorage.getItem("theme") === "light") {
-                    document.body.classList.add("light-mode");
-                    toggleButton.textContent = "Switch to Dark Mode";
-                }
-            } catch (e) {
-                console.warn("localStorage is not supported or accessible.");
-            }
-            // Toggle light/dark mode when the button is clicked
-            toggleButton.addEventListener("click", function() {
-                try {
-                    document.body.classList.toggle("light-mode");
-                    if (document.body.classList.contains("light-mode")) {
-                        toggleButton.textContent = "Switch to Dark Mode";
-                        localStorage.setItem("theme", "light");
-                    } else {
-                        toggleButton.textContent = "Switch to Light Mode";
-                        localStorage.setItem("theme", "dark");
-                    }
-                } catch (e) {
-                    console.warn("localStorage is not supported or accessible.");
-                }
-            });
-
-            // Button hover glow effect
-            // Add glow effect to buttons on hover
-            const buttons = document.querySelectorAll('.button-link');
-            buttons.forEach(button => {
-                button.addEventListener('mouseover', function() {
-                    button.classList.add("button-glow");
-                });
-                button.addEventListener('mouseout', function() {
-                    button.classList.remove("button-glow");
-                });
-            });
-
-            // Image pulse effect when clicked
-            // Add pulse effect on click using CSS class
-            const profileImage = document.querySelector('img');
-            profileImage.classList.add('pulse-effect');
-            profileImage.addEventListener('click', function() {
-                profileImage.classList.add('pulse-effect-active');
-                setTimeout(() => {
-                    profileImage.classList.remove('pulse-effect-active');
-                }, 200);
-            });
-        });
-    </script>
-</head>
-<body>
     <div class="container">
         <!-- Main content container -->
         <div style="display: flex; align-items: center; margin-bottom: 20px;">
@@ -216,94 +185,12 @@
             <a href="https://www.linkedin.com/in/prestonbwest/" class="button-link">LinkedIn Profile</a>
             <a href="Preston_West_Resume_2024.pdf" class="button-link" target="_blank">Download Resume</a>
         </div>
+        
+        <!-- Other content here -->
 
-        <div class="section">
-            <p><strong>Location:</strong> Arkansas, United States</p>
-        </div>
-
-        <div class="section">
-            <h2>Professional Profile</h2>
-            <p>Experienced Cloud DevOps Engineer and Network Security Specialist with a focus on designing and implementing secure, scalable, and high-performance infrastructure solutions. Skilled in leveraging Google Cloud Platform (GCP) for agile DevOps practices, including infrastructure automation, CI/CD pipeline development, and efficient, scalable deployments. Proficient in network security with expertise in Fortinet Firewall configuration and Jamf MDM for Mac OS management.</p>
-        </div>
-
-        <div class="section">
-            <h2>Technical Competencies</h2>
-            <ul>
-                <li><strong>Cloud & DevOps:</strong> Google Cloud Platform (GCP), Infrastructure as Code (IaC)</li>
-                <li><strong>Networking & Security:</strong> Cisco, Fortinet, Palo Alto Firewalls, Network Segmentation, VPN</li>
-                <li><strong>Mobile Device Management:</strong> Jamf (Mac OS Configuration and Compliance Management)</li>
-                <li><strong>Systems & Platforms:</strong> Windows PC, Mac OSX, Linux</li>
-                <li><strong>Software:</strong> MS Office Suite, Google Workspace</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Certifications</h2>
-            <ul>
-                <li>ISC2 SSCP | Issued: October 2024 | Expires: October 2025</li>
-                <li>CompTIA Security+ | Issued: Mar 2019 | Expires: Mar 2025</li>
-                <li>CompTIA Network+ | Issued: Sep 2023 | Expires: Sep 2026</li>
-                <li>CompTIA A+ | Issued: Apr 2023 | Expires: Jun 2026</li>
-                <li>Google Workspace Certification | Coursera</li>
-                <li>Fortinet Certified Cybersecurity (CFC) | Issued: Feb 2024 | Expires: Feb 2026</li>
-                <li>Forge Institute Cyber Professional | Issued: May 14, 2024</li>
-            </ul>
-        </div>
-
-        <div class="section experience">
-            <h2>Professional Experience</h2>
-            <div class="experience-detail">
-                <h3 class="experience-title">Information Technology Associate</h3>
-                <p><strong>Forge Institute | Arkansas, United States (On-site)</strong><br><em>Jul 2024 - Present</em></p>
-                <ul>
-                    <li>Managing and optimizing cloud infrastructure on <strong>Google Cloud Platform</strong> (GCP) to support agile DevOps practices.</li>
-                    <li>Configuring and managing Mac OS environments using the <strong>Jamf MDM suite</strong> for a secure and efficient user experience.</li>
-                    <li>Configuring <strong>Fortinet firewalls and access points</strong> to secure infrastructure from evolving threats.</li>
-                </ul>
-
-                <h3 class="experience-title">Fellow - Network Administration</h3>
-                <p><strong>Forge Institute | Little Rock, AR</strong><br><em>February 2024 - July 2024</em></p>
-                <ul>
-                    <li>Led the design and deployment of three Pop-up Network Kits to expand network connectivity options.</li>
-                    <li>Worked to create, annotate, and define policy for Company CMMC Compliance.</li>
-                    <li>Gained certifications in Fortinet CFC and training in Google Workspace and Jamf for comprehensive network management.</li>
-                </ul>
-
-                <h3 class="experience-title">Operations Integrations Supervisor</h3>
-                <p><strong>68th Cyberspace Squadron, U.S. Space Force | Colorado Springs, CO</strong><br><em>October 2022 - Present</em></p>
-                <ul>
-                    <li>Led a 4-member team in mapping and analyzing 18 geographically separated sites for the largest satellite communications network within the U.S. Space Force.</li>
-                    <li>Planned and coordinated travel to five global locations, completing site visits eight months ahead of schedule.</li>
-                    <li>Created technical documents and procedures that became Space Force-wide standards.</li>
-                </ul>
-
-                <h3 class="experience-title">Network Management Technician</h3>
-                <p><strong>374th Communications Squadron | Tokyo, Japan</strong><br><em>August 2018 - October 2022</em></p>
-                <ul>
-                    <li>Maintained network operations for 12,000 personnel across 21 locations, ensuring minimal downtime.</li>
-                    <li>Collaborated with international partners to deliver communication services globally.</li>
-                    <li>Resolved multiple critical network outages within 36 hours by pinpointing issues across OSI layers.</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section education">
-            <!-- Education section -->
-            <h2>Education</h2>
-            <div class="education-detail">
-                <p><strong>Bachelor of Applied Science in Information Assurance & Cyber Security</strong><br><em>Anticipated Graduation: June 2025</em><br>Western Governors University, Salt Lake City, UT</p>
-                <p><strong>Associate of Information Technology</strong><br><em>Graduated: 2022</em><br>Community College of the Air Force, Maxwell AFB, AL</p>
-            </div>
-        </div>
-
-        <div class="section">
-            <!-- Contact section -->
-            <h2>Contact</h2>
-            <p>For further information or to discuss potential collaborations, please reach out via email or LinkedIn.</p>
-        </div>
     </div>
-    
-    <script>
+
+    <script defer>
         // JavaScript for additional fun and interactive features
         document.addEventListener("DOMContentLoaded", function() {
             // Light mode toggle button
