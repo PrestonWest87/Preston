@@ -12,9 +12,9 @@
         /* Body styling and general page layout */
         body {
             font-family: 'Roboto', sans-serif;
-            background: linear-gradient(45deg, #2c2c2c, #5a5a5a);
+            background: linear-gradient(45deg, #2c2c2c, #5a5a5a, #8e44ad, #34495e);
             background-size: 400% 400%;
-            animation: gradientBackground 15s ease infinite;
+            animation: gradientBackground 20s ease infinite;
             color: #e0e0e0;
             line-height: 1.6;
             margin: 0;
@@ -24,11 +24,11 @@
 
         /* Keyframe animation for the background gradient */
         @keyframes gradientBackground {
-            0% { background-position: 0% 0%; }
-            25% { background-position: 100% 0%; }
+            0% { background-position: 0% 50%; }
+            25% { background-position: 100% 50%; }
             50% { background-position: 100% 100%; }
             75% { background-position: 0% 100%; }
-            100% { background-position: 0% 0%; }
+            100% { background-position: 0% 50%; }
         }
 
         /* Styling for the container element */
