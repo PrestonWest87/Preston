@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!-- Author: OpenAI Assistant -->
+<html lang="en">
+<head>
+    <!-- Meta and CSS links -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weast PCs - High-Performance Custom PCs for Every Need">
+    <title>Weast PCs - High Performance Custom PCs Tailored for You</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Body styling and general page layout */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(45deg, #2c2c2c, #5a5a5a, #8e44ad, #34495e);
+            background-size: 400% 400%;
+            animation: gradientBackground 20s ease infinite;
+            color: #e0e0e0;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            overflow: auto;
+        }
+
+        /* Keyframe animation for the background gradient */
+        @keyframes gradientBackground {
+            0% { background-position: 0% 50%; }
+            25% { background-position: 100% 50%; }
+            50% { background-position: 100% 100%; }
+            75% { background-position: 0% 100%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Styling for the container element */
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: #282828;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 2;
+        }
+
+        h1, h2, h3 {
+            color: #8e44ad; /* Deep Purple */
+        }
+
+        /* Styling for header */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+
+        /* Styling for anchor tags */
+        a {
+            color: #34495e; /* Dark Blue */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #444;
+        }
+
+        .service-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .service-item {
+            background: #34495e;
+            border-radius: 10px;
+            padding: 15px;
+            flex: 1;
+            min-width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .service-item:hover {
+            transform: scale(1.05);
+        }
+
+        /* Styling for buttons container */
+        .buttons-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .button-link {
+            background-color: #8e44ad; /* Deep Purple */
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .button-link:hover {
+            background-color: #7b3c9e; /* Slightly darker purple */
+            transform: scale(1.05);
+        }
+
+        /* Media queries for responsiveness */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">Weast PCs</div>
+            <nav>
+                <a href="#about">About</a> | <a href="#services">Services</a> | <a href="#contact">Contact</a>
+            </nav>
+        </div>
+
+        <div class="section" id="about">
+            <h1>About Us</h1>
+            <p>Welcome to Weast PCs, where performance meets perfection. We are passionate about building high-performance, custom-made PCs designed to meet your specific needs, whether you're an avid gamer, a content creator, or a business professional needing reliable hardware. With years of expertise in designing and configuring secure, scalable systems, we bring the best in technology right to your doorstep.</p>
+        </div>
+
+        <div class="section" id="services">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Gaming PCs</h3>
+                    <p>Experience unparalleled gaming performance. We build powerful, tailor-made gaming rigs using the latest hardware and cooling solutions to handle any game you throw at them.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Workstation PCs</h3>
+                    <p>For content creators, engineers, and professionals, our workstations are optimized for heavy computing tasks, delivering smooth performance, no matter the workload.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Small Business PCs</h3>
+                    <p>Custom-built desktop solutions to empower your business. Reliable, secure, and designed to keep your business moving forward efficiently.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Network Solutions</h3>
+                    <p>We provide expert network setup and integration services to ensure your custom PC environment is optimized for connectivity and security.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="contact">
+            <h2>Get In Touch</h2>
+            <p>We are here to help bring your vision to life. Contact us today to discuss your custom PC requirements and how we can build a system that meets your needs.</p>
+            <div class="buttons-container">
+                <a href="mailto:info@weastpcs.com" class="button-link">Email Us</a>
+                <a href="#" class="button-link">Request a Quote</a>
+            </div>
+        </div>
+    </div>
+
+    <script defer>
+        // JavaScript for additional fun and interactive features
+        document.addEventListener("DOMContentLoaded", function() {
+            // Toggle menu on mobile devices (future feature)
+            console.log("Weast PCs Website Loaded");
+        });
+    </script>
+</body>
+</html>
